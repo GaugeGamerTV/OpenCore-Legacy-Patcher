@@ -1,6 +1,11 @@
 # OpenCore Legacy Patcher changelog
 
 ## 2.1.0
+- Fix Nvidia Kepler patches not installing on Monterey
+## 2.0.1
+- Fix MacBookPro13,3 listing 'Available patches' after having installed all applicable patches
+- Fix Nvidia Tesla and Kepler patches not installing on Monterey (and older if applicable)
+- Fix Nvidia Web Drivers incorrectly listing 'OpenGL', 'compat' and 'nvda_drv(_vrl)' missing
 
 ## 2.0.0
 - Set `AssociatedBundleIdentifiers` property in launch services as an array
